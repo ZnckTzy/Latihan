@@ -8,14 +8,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="css/tooplate-style.css" rel="stylesheet">
 
-    <style>
-		.menu {
-			border: 10px solid green;
-			padding: 20px;
-            margin-bottom: 20px;
-        }
-    </style>
-
 </head>
 <body>
 	<div class="tm-container-fluid">
@@ -26,7 +18,7 @@
             <a href="#">Contact</a>
         </section>
 
-        <section class="tm-bgcolor-2 tm-p-50 mt-20" style="border-radius: 15px; margin-bottom: 20px;">
+        <section class="tm-bgcolor-2 tm-p-50 mt-20" style="border-radius: 15px; margin-bottom: 20px; box-shadow: 0px 0px 10px gray;">
             <h1>
                 <?php
                     $pageTitle = 'Adi Sanggoro Keren';
@@ -42,12 +34,12 @@
             ?>
         </section>
 
-		<section class="tm-site-header tm-flex-center tm-mb-50 tm-bgcolor-1 tm-border-rounded">
+		<section class="tm-site-header tm-flex-center tm-mb-20 tm-bgcolor-1 tm-border-rounded">
 			<i class="fas fa-heart fa-3x"></i>
 			<h1>Adi Sanggoro</h1>
 		</section>
 
-		<section class="tm-about tm-mb-80 tm-p-50 tm-bgcolor-2 tm-border-rounded">
+		<section class="tm-about tm-mb-20 tm-p-50 tm-bgcolor-2 tm-border-rounded">
 			<div class="tm-about-header tm-flex-center">
 				<i class="fas fa-users fa-2x"></i>
 				<h2>About Us</h2>
@@ -65,11 +57,9 @@
 			</div>
 			<div class="tm-contact-info">
 				<address class="tm-mb-30">
-					120 Curabitur sed tortor ultrices,
-					congue odio eget, posuere urna.
-					Praesent at rhoncus 10680
+					JL. SENGKED NO 1 KAMPUS IPB DRAMAGA 16680
 				</address>
-				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a></div>
+				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:089531312321" class="tm-link-white">+62 895 3131 2321</a></div>
 				<div class="tm-flex">
 					<a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a>
 					<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a>
